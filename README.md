@@ -1,5 +1,9 @@
 # Emberfall — Duel of the Ashen Court
 
+[![make.fun · best-card-game-20261122-1826](https://make.fun/badge/best-card-game-20261122-1826.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![rank](https://make.fun/badge/best-card-game-20261122-1826/shinichibi/best-card-game-20261122-1826/rank.svg)](https://make.fun/bounty/best-card-game-20261122-1826/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![reward](https://make.fun/badge/best-card-game-20261122-1826/shinichibi/best-card-game-20261122-1826/reward.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+
 **Emberfall** is an original browser card duel. You are the Ember Knight; across the marble table sits Vesk, the Ashen Warlock, who holds the Ashen Court and means to keep it. Both duelists start at 30 life. Each turn you draw 2 cards and refill to 3 energy — then every card in your hand is a decision.
 
 **Four suits, told apart by colour, shape and icon — never text alone.** Ember (red flame) deals damage. Aegis (gold shield) raises block that soaks the next hit and falls at the start of your turn. Thorn (violet spike) stacks poison that ticks straight past block at the start of the victim's turn, then fades by one. Tide (blue wave) draws cards and heals. Sixteen cards mix the suits into hybrids — Spore Veil poisons and blocks at once; Dawn Mantle walls up and mends.
