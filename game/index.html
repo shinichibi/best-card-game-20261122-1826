@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emberfall — Duel of the Ashen Court</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23ff7a3c' d='M12 2c1 4-3 5-3 8a3 3 0 0 0 6 0c0-1-.5-2-.5-2s3 1.5 3 5a5.5 5.5 0 0 1-11 0C6.5 8 10 6 12 2z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="embers" aria-hidden="true"></canvas>
+
+<main id="table" hidden></main>
+
+<section id="title-screen">
+  <div class="title-inner">
+    <div class="kicker">A card duel in the Ashen Court</div>
+    <h1 class="game-title">EMBERFALL</h1>
+    <p class="tagline">Vesk, the Ashen Warlock, holds the court. You hold twenty-four cards,
+      three energy a turn, and a sword made of embers. Read his intent. Chain your suits.
+      Bring him down.</p>
+    <div id="fan" aria-hidden="true"></div>
+    <div class="title-buttons">
+      <button class="big-button" id="begin">Begin the Duel</button>
+      <button class="ghost-button" id="how-toggle">How to Play</button>
+    </div>
+    <div id="how" hidden>
+      <p><strong>The duel.</strong> Both duelists have 30 life. Each turn you draw 2 cards and
+        refill to 3 energy. Click a card (or press 1–8) to play it; Space ends your turn.</p>
+      <p><strong>Four suits.</strong> <span class="s-ember">Ember</span> deals damage,
+        <span class="s-aegis">Aegis</span> raises block, <span class="s-thorn">Thorn</span> stacks
+        poison that ticks past block at the start of a turn, <span class="s-tide">Tide</span>
+        draws cards and heals.</p>
+      <p><strong>Resonance.</strong> Play two cards of the same suit in a row and the second
+        resonates: +1 to its damage, block, poison and healing.</p>
+      <p><strong>Intent.</strong> Above Vesk's portrait, his intent shows the biggest thing
+        his hand can do next turn. Wall up against a sword. Race him when he schemes.</p>
+    </div>
+    <div class="title-foot">An original card game · no two duels deal alike</div>
+  </div>
+</section>
+
+<section id="end-screen" hidden></section>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
